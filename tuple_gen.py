@@ -31,6 +31,7 @@ def uniqueConverter(intInput):
 	length = 7 - length
 	for x in range(length):
 		resultString = 'A' + resultString
+	resultString = resultString + "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 	return resultString
 
 MAXTUPLES = 100
