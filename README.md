@@ -1,5 +1,4 @@
-## Daniel Lee
-## Theodore Vixay
+## Authors: Daniel Lee & Theodore Vixay
 ## CS587 Project
 
 
