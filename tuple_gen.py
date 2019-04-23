@@ -4,7 +4,7 @@ print("unique1 unique2 two four ten twenty onePercent tenPercent twentyPercent f
 
 import random
 
-infile = open("inputFile.txt","w")
+infile = open("tenktup2.txt","w")
 def string4Generator(intInput):
 	case = intInput % 4
 	if case == 0: 
@@ -34,7 +34,7 @@ def uniqueConverter(intInput):
 	resultString = resultString + "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 	return resultString
 
-MAXTUPLES = 100
+MAXTUPLES = 10000
 randList = random.sample(xrange(MAXTUPLES),MAXTUPLES)
 
 start = 0

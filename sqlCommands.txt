@@ -1,0 +1,59 @@
+create table onektup( 
+  unique1        INTEGER      NOT NULL,
+  unique2        INTEGER      NOT NULL PRIMARY KEY,
+  two            INTEGER      NOT NULL,
+  four           INTEGER      NOT NULL,
+  ten            INTEGER      NOT NULL,
+  twenty         INTEGER      NOT NULL,
+  onePercent     INTEGER      NOT NULL,
+  tenPercent     INTEGER      NOT NULL,
+  twentyPercent  INTEGER      NOT NULL,
+  fiftyPercent   INTEGER      NOT NULL,
+  unique3        INTEGER      NOT NULL,
+  evenOnePercent INTEGER      NOT NULL,
+  oddOnePercent  INTEGER      NOT NULL,
+  stringu1       varchar(52)  NOT NULL,
+  stringu2       varchar(52)  NOT NULL,
+  string4        varchar(52)  NOT NULL,
+);
+
+create table tenktup1( 
+  unique1        INTEGER      NOT NULL,
+  unique2        INTEGER      NOT NULL PRIMARY KEY,
+  two            INTEGER      NOT NULL,
+  four           INTEGER      NOT NULL,
+  ten            INTEGER      NOT NULL,
+  twenty         INTEGER      NOT NULL,
+  onePercent     INTEGER      NOT NULL,
+  tenPercent     INTEGER      NOT NULL,
+  twentyPercent  INTEGER      NOT NULL,
+  fiftyPercent   INTEGER      NOT NULL,
+  unique3        INTEGER      NOT NULL,
+  evenOnePercent INTEGER      NOT NULL,
+  oddOnePercent  INTEGER      NOT NULL,
+  stringu1       varchar(52)  NOT NULL,
+  stringu2       varchar(52)  NOT NULL,
+  string4        varchar(52)  NOT NULL,
+);
+
+create table tenktup2( 
+  unique1        INTEGER      NOT NULL,
+  unique2        INTEGER      NOT NULL PRIMARY KEY,
+  two            INTEGER      NOT NULL,
+  four           INTEGER      NOT NULL,
+  ten            INTEGER      NOT NULL,
+  twenty         INTEGER      NOT NULL,
+  onePercent     INTEGER      NOT NULL,
+  tenPercent     INTEGER      NOT NULL,
+  twentyPercent  INTEGER      NOT NULL,
+  fiftyPercent   INTEGER      NOT NULL,
+  unique3        INTEGER      NOT NULL,
+  evenOnePercent INTEGER      NOT NULL,
+  oddOnePercent  INTEGER      NOT NULL,
+  stringu1       varchar(52)  NOT NULL,
+  stringu2       varchar(52)  NOT NULL,
+  string4        varchar(52)  NOT NULL,
+);
+\copy onektup from '/u/vixay/CS587-Data-Implementation-Project/onektup.txt'  with (format csv);
+\copy tenktup1 from '/u/vixay/CS587-Data-Implementation-Project/tenktup1.txt'  with (format csv);
+\copy tenktup2 from '/u/vixay/CS587-Data-Implementation-Project/tenktup2.txt'  with (format csv);
